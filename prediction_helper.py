@@ -3,10 +3,10 @@ import numpy as np
 from joblib import load
 import streamlit as st
 
-model_young = load("artifacts\model_young.joblib")
-model_rest = load("artifacts\model_rest.joblib")
-scaler_young = load("artifacts\scaler_young.joblib")
-scaler_rest = load("artifacts\scaler_rest.joblib")
+model_young = load("artifacts/model_young.joblib")
+model_rest = load("artifacts/model_rest.joblib")
+scaler_young = load("artifacts/scaler_young.joblib")
+scaler_rest = load("artifacts/scaler_rest.joblib")
 
 
 def calculate_normalized_risk(medical_history):
